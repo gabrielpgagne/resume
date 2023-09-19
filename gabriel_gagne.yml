@@ -4,210 +4,199 @@ personal:
   name: Gabriel Gagné
   email: gabrielpgagne@gmail.com
   phone: (+1) 418 932 3641
-  #url: https://johndoe.com
+  #url: https://johndoe.com # removed in cv.typ
   location:
     city: Lévis
     region: Québec
-    postalCode: G7A 4Z6
+    #postalCode: G7A 4Z6 # removed in cv.typ
     country: Canada
   profiles:
     - network: LinkedIn
-      username: Gabriel Gagné
+      username: gabrielpgagne
       url: https://linkedin.com/in/gabrielpgagne
     - network: GitHub
       username: gabrielpgagne
       url: https://github.com/gabrielpgagne
 
-work:
-  - organization: X Company
-    position: Senior Developer
-    url: https://example.com
-    location: Remote / New York, New York
-    startDate: 2021-08-01
-    endDate: 2023-05-31
-    highlights:
-      - This being the theory I hold, why need I be afraid of not being able to reconcile it with the case of my ancestors?
-      - "The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
-      - Do you really believe that they charged an armed enemy, or treated their children, their own flesh and blood, so cruelly, without a thought for their own interest or advantage?
-  - organization: National Aeronautics and Space Administration - Jet Propulsion Laboratory
-    position: Senior Developer
-    url: https://example.com
-    location: Pasadena, California
-    startDate: 2021-08-01
-    endDate: 2023-05-31
-    highlights:
-      - This being the theory I hold, why need I be afraid of not being able to reconcile it with the case of my ancestors?
-      - "The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
-      - Do you really believe that they charged an armed enemy, or treated their children, their own flesh and blood, so cruelly, without a thought for their own interest or advantage?
-
 education:
-  - institution: Open University
-    url: https://example.com/
-    area: Computer Science
-    studyType: Bachelor of Science
-    startDate: 2017-08-01
-    endDate: 2021-06-30
-    location: City of London, United Kingdom
-    honors:
-      - 4.0 / 4.0 GPA
-      - President's List
-      - Dean's List
-    courses:
-      - Algorithms & Data Structures
-      - Applications in Quantitative Finance
-      - Engineering Data Analysis
-      - Compiler Architecture
+  - institution: Université Laval
+    url: https://www.ulaval.ca/
+    area: Electrical Engineering
+    studyType: Master's
+    startDate: 2023-05-01
+    endDate: 2024-12-20
+    location: QC, Canada
+    gpa: 4.00 / 4.33
+    courses: # removed
+      - Computer Vision
+      - Algorithmic Photography
+      - FPGA Systems Design
+      - Mixed Signal Microelectronics
     highlights:
-      - "*Thesis*: A convolutional neural network for predicting Greenland glacier melt and glacial water flow"
-      - "*Activites*: Debating, Chess, Cricket"
-  - institution: Harvard University
-    url: https://example.com/
-    area: Computer Science
-    studyType: Bachelor of Science
-    startDate: 2017-08-01
-    endDate: 2021-06-30
-    location: City of London, United Kingdom
-    honors:
-      - Summa Cum Laude (4.0 GPA)
-      - President's List
-      - Dean's List
+      - "*Thesis*: Neural Network Implementation and Optimization on Edge Devices"
+
+  - institution: Université Laval
+    url: https://www.ulaval.ca/
+    area: Electrical Engineering
+    studyType: Bachelor's (Hons.)
+    startDate: 2019-09-01
+    endDate: 2023-04-30
+    location: QC, Canada
+    gpa: 4.09 / 4.33
     courses:
-      - Algorithms & Data Structures
-      - Applications in Quantitative Finance
-      - Engineering Data Analysis
-      - Compiler Architecture
+      - Advanced Programming in C++
+      - Microprocessor Systems and Interfaces
+      - Communications Systems
+      - Control Systems
+      - Digital Signal Processing
+work:
+  # Accomplished [X] as measured by [Y] by doing [Z]” — Laszlo Bock
+  # https://www.freecodecamp.org/news/writing-a-killer-software-engineering-resume-b11c91ef699d/
+  - organization: Smartek Technologies
+    position: Embedded Software Developer
+    url: https://smartrek.io
+    location: Breakeyville, QC, Canada
+    startDate: 2020-10-15
+    endDate: 2023-12-31
     highlights:
-      - "*Thesis*: A convolutional neural network for predicting Greenland glacier melt and glacial water flow"
-      - "*Activites*: Debating, Chess, Cricket"
+      - Developed a cutting-edge ultrasonic inspection device leveraging tight integration between an FPGA and Smartrek's RF technology. The main focus was put on ensuring a fully remotely configurable and operable device, as well as edge processing.
+      - Increased the amount of free flash memory by up to 50% on our microcontroller by porting custom libraries to a modern compiler.
+      - Significantly improved flexibility and reliability of internal production tools by re-designing from the ground up the tools' software architecture.
+      - Contributed to the integration of over 4 new sensor types into Smartrek's product stack, including hardware revision, firmware code, Android app and Web app development.
+
+  - organization: SiFi Labs
+    position: Master's Research Intern
+    url: https://sifilabs.com
+    location: Québec, QC, Canada
+    startDate: 2023-05-15
+    endDate: 2023-09-15
+    highlights:
+      - Developed an end-to-end machine learning pipeline, including signal processing, feature extraction from datasets or from real-time SiFi device data, saving the processed data, training a ML model and inferring.
+      #- Designed a hybrid PCB for their flagship product. The PCB includes a flex part that is removable from the main board, allowing for easier and cheaper hardware revisions than having to re-design the entire PCB.
+      - Developed a fully cross-platform command-line tool in Rust that can interact with all of SiFi Labs' devices. This tool propels forward the development and experimentation capabilities of researchers and developers. Python wrappers and JNI bindings were also created to use the tool from other languages.
+      - Provided DevOps insight, notably for documentation and version control, by restructuring many repositories, writing clear documentation (code, readmes, user's guides), and automatisation scripts.
+
+  - organization: Université Laval
+    position: FPGA Research Intern
+    url: https://ulaval.ca
+    location: Québec, QC, Canada
+    startDate: 2021-05-04
+    endDate: 2021-08-15
+    highlights:
+      - Designed an SoC FPGA-based development board with all the interfaces needed by the lab's graduate students, including Ethernet, USB and DDR3L.
+
+  - organization: Université Laval
+    position: Class Assistant
+    url: https://ulaval.ca
+    location: Québec, QC, Canada
+    startDate: 2021-05-04
+    endDate: 2023-12-15
+    highlights:
+      - Provided assistance in 4 courses since 2021 by correcting students' lab reports and troubleshooting classes.
 
 affiliations:
-  - organization: White Hat Hackers Association
-    position: Vice President for Internal Affairs
-    location: Cambridge, United Kingdom
-    url: https://example.com
-    startDate: 2020-05-30
-    endDate: 2021-05-30
+  - organization: IEEE
+    position: Student Member
+    location: QC, Canada
+    url: https://www.ieee.org
+    startDate: 2023-09-01
+    endDate: 2024-12-31
     highlights:
-      - But I must explain to you how all this mistaken idea of reprobating pleasure and extolling pain arose.
-      - But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
-      - Can you then suppose that those heroic men performed their famous deeds without any motive at all?
-  - organization: London Bridge Toastmasters Club
-    position: Member
-    location: City of London, United Kingdom
-    url: ""
-    startDate: 2022-06-15
-    endDate: 2023-06-30
+      #- TODO
+  - organization: Cadets Canada
+    position: Chief Warrant Officer
+    location: Charny, QC, Canada
+    url: https://www.canada.ca/en/department-national-defence/services/cadets-junior-canadian-rangers/cadets.html
+    startDate: 2012-02-01
+    endDate: 2018-10-19
     highlights:
-      - Won Champion in the Division A District X Speech Evaluation Contest of Toastmasters International
-      - Promising Toastmaster of the Year (PY 2022-2023)
-      - Tell me, pray, what explanation do you put upon their actions?
+      #- fef
 
 awards:
-  - title: Champion in the Division A District X Speech Evaluation Contest
-    date: 2023-05-09
-    issuer: Toastmasters International
-    url: ""
-    location: City of London, United Kingdom
+  - title: Electrical Engineering Academic Award
+    date: 2023-04-30
+    issuer: Department of Electrical and Computer Engineering
+    url: "https://ulaval.ca"
+    location: QC, Canada
     highlights:
-      # - Champion in the Division A District X Speech Evaluation Contest of Toastmasters International in London.
-  - title: "Finalist in the 2020 SCG Bangkok Business Challenge Global Competition"
-    date: 2020-07-12
-    issuer: Sasin School of Management
-    url: ""
-    location: Bangkok, Thailand
+      - EE and CE Department gives this prize to the student with the best academic results in their cohort
+
+  - title: First Place of the Design III Competition
+    date: 2022-04-15
+    issuer: Université Laval
+    url: "https://ulaval.ca"
+    location: QC, Canada
     highlights:
-      - "Made it to the Top 5 (selected from over 100 teams) in the world for the semi-finals of the SCG Bangkok Business Challenge #sym.at Sasin 2020 Global Competition held at Bangkok, Thailand from July 7-12, 2020."
-      - "Served as the speaker and presented in the 60-second pitch round of the Opening Reception of the SCG Bangkok Business Challenge #sym.at Sasin 2022 for Team London Bridge."
+      - A self-driving robot had to be designed in multidisciplinary teams of 12 students in Software, Computer and Electrical Engineering
 
 certificates:
-  - name: "Learning How to Learn: Powerful mental tools to help you master tough subjects"
-    date: 2021-09-01
-    issuer: Coursera
-    url: https://example.com
-
-publications:
-  - name: A convolutional neural network for predicting Greenland glacier melt and glacial water flow
-    publisher: Theoretical and Computational Fluid Dynamics
-    releaseDate: 2020-09-30
-    url: https://example.com
-
-projects:
-  - name: "Job Tailor"
-    url: https://example.com/
-    affiliation: Open University
-    startDate: 2020-11-01
-    endDate: 2021-04-30
-    highlights:
-      - Created an AI-powered resume editor application that allowed users to easily create different resumes and cover letters specifically tailored to and customized for individual job descriptions based on their personal information in their complete curriculum vitae.
-      - Acquired more than 100,000 user sign ups in 3 months and more than 10,000 active monthly users in its lifetime before being sold to investors.
-      - Generated profit of upwards \$20,000 yearly with a team of only four developers and three business operatives
+  #- name: "Deep Learning & Machine Learning Specializations"
+  #  date: 2023-07-10
+  #  issuer: Coursera
+  #  url: https://coursera.org
 
 skills:
   - category: Soft Skills
     skills:
-      - Public Speaking
-      - Debating
       - Communication
-      - Critical Thinking
-      - Leadership
-      - Persuasive Writing
-      - Technical Writing
+      - informative writing
+      - technical writing
+      - critical thinking
+      - leadership
   - category: Programming
     skills:
+      - C/C++
+      - Rust
+      - Java
       - Python
-      - SQL, PostgreSQL
-      - MATLAB/Octave
+      - PostgreSQL
+      - Shell scripting
       - HTML
-      - CSS
-      - Javascript
-      - Typst
-      - LaTeX
+      - Typescript
   - category: Tools
     skills:
-      - Microsoft Word
+      - Microsoft Office
       - Git
       - Docker
-      - Visual Studio Code
-      - Canva
-  - category: Web Development
-    skills:
-      - React
-      - Next.js
-      - million.js
-      - Svelte & Sveltekit
-      - Tailwind CSS
-      - Node.js
-      - Deno
-      - FastAPI
-      - Flask
-  - category: BI & Data Analytics
-    skills:
-      - Microsoft Excel
-      - Microsoft Power BI
-      - Jupyter Notebook
-      - Numpy
-      - Pandas
-      - Plotly
-      - Altair
+      - AWS
+      - Unix tools
 
 languages:
+  - language: French
+    fluency: Native speaker
   - language: English
-    fluency: Native speaker
-  - language: German
-    fluency: Native speaker
-  - language: Japanese
-    fluency: Basic proficiency
+    fluency: Fluent
+  - language: Spanish
+    fluency: Basic
 
 interests:
-  - Video Games
-  - Anime
-  - Reading Non-fiction
-  - Classical and Original Soundtrack Music
+  - Endurance running
+  - road cycling
+  - story-driven video games
+  - learning new skills
+  - having thoughtful conversations
+  - philosophy
+  - reading
+
+publications:
+  #- name: A convolutional neural network for predicting Greenland glacier melt and glacial water flow
+  #  publisher: Theoretical and Computational Fluid Dynamics
+  #  releaseDate: 2020-09-30
+  #  url: https://example.com
+
+projects:
+  #- name: "Job Tailor"
+  #  url: https://example.com/
+  #  affiliation: Open University
+  #  startDate: 2020-11-01
+  #  endDate: 2021-04-30
+  #  highlights:
+  #    - Created an AI-powered resume editor application that allowed users to easily create different resumes and cover letters specifically tailored to and customized for individual job descriptions based on their personal information in their complete curriculum vitae.
 
 references:
   # You can comment out the entries below if you don't have any references
   # The same goes for the publications
 
-  - name: Dr. Jane Austin
-    reference: John was a great student. He was always eager to learn new things and was very passionate about his studies. As his mentor, I am proud to say that he was also a great leader and was able to lead his team to victory in the 2020 SCG Bangkok Business Challenge Global Competition.
-    url: https://janeaustin.com
+  #- name: Dr. Jane Austin
+  #  reference: John was a great student. He was always eager to learn new things and was very passionate about his studies. As his mentor, I am proud to say that he was also a great leader and was able to lead his team to victory in the 2020 SCG Bangkok Business Challenge Global Competition.
+  #  url: https://janeaustin.com
